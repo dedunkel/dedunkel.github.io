@@ -1,0 +1,30 @@
+html, body {
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#calendar-container{
+    position: fixed;
+    top: 0;
+    left: 30px;
+    right: 0;
+    bottom: 0;
+    color :white;
+}
+
+.fc-header-toolbar {
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* 일요일 날짜: 빨간색 */
+.fc-day-sun a {
+    color: red;
+}
+  
+/* 토요일 날짜: 파란색 */
+.fc-day-sat a {
+    color: blue;
+}
